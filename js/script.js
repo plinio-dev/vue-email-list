@@ -11,7 +11,6 @@ var app = new Vue ({
 
   },
   mounted: function(){
-    var emails = [];
     var self = this;
 
     for (i = 0; i < 10; i++) {
@@ -20,7 +19,7 @@ var app = new Vue ({
       self.emails.push(risposta.data.response)
 
       });
-    }console.log(emails);
+    }
   }
 
 });
